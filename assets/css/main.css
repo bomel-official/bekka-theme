@@ -893,6 +893,39 @@ footer{
     }
 }
 @media (max-width: 992px){
+    footer {
+            padding: 0;
+        }
+    .textabout{
+        margin-left: 0px;
+    }
+    .imgreno{
+        width: 70%;
+    }
+    .block_5 .about_wrapper {
+        align-items: center;
+            flex-direction: column;
+        }
+    .logo_desk {
+            display: none;
+        }
+    
+        .container {
+            display: block;
+        }
+    
+        .dest {
+            display: none;
+        }
+    
+        .mobile-menu {
+            display: flex;
+        }
+    
+        .button_left,
+        .button_right {
+            display: none;
+        }
     .block_2 div:last-of-type{
         margin-left: 20px;
     }
@@ -906,6 +939,7 @@ footer{
         line-height: 20px;
     }
     .block_5 h3{
+        margin-top: 40px;
         line-height: 27px;
     }
     #author > div > div.button_left, #author>div>div.button_right{
@@ -921,9 +955,56 @@ footer{
         width: 40%;
     }
 }
-@media (max-width:480px){
+@media (max-width:600px){
+    .question p{
+        font-size: 1rem;
+    }
+    .title{
+        font-size: 18px;
+    }
+    #contact>div>div>p{
+        text-align: center;
+    }
+    #contact>div>img{
+        width: 90%;
+    }
+    .buttons_write{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .cost_wrapper{
+        padding: 70px 20px;
+    }
+    .form{
+        margin-left: 0px;
+    }
+    .imgreno img{
+        box-shadow: 10px 10px 0px #edf6fc;
+    }
+    .block_5 h2{
+        font-size: 35px;
+    }
+    .block_5_wrapper{
+        padding: 0;
+    }
+    .block_5 .about_wrapper{
+        padding: 20px;
+        width: 100%;
+    }
+    .stokes .text{
+        padding: 40px;
+        text-align: center;
+    }
+    #author>div>div>div.textabout>p{
+        margin: 10px 0px;
+    }
     .block_5 h3{
-        font-size: 25px;
+        text-align: center;
+        margin-top: 25px;
+        width: 100%;
+        font-size: 18px;
+        line-height: 100%;
     }
     .block_5 p{
         font-size: 16px;
@@ -974,6 +1055,8 @@ footer{
     }
     .block_3 button{
         width: auto;
+        scale: 0.9;
+        padding: 15px;
     }
     .block_4 h2, .block_4 h3{
     text-align: center;
@@ -987,6 +1070,8 @@ footer{
     }
     .block_4 button{
         width: auto;
+        scale: 0.9;
+        padding: 15px;
     }
     .block_5 .about_wrapper{
         flex-direction: column;
@@ -1045,7 +1130,7 @@ footer{
         font-size: 80%;
     }
     .left_button img, .right_button img{
-        width: 80%;
+        width: auto;
     }
     .logo_desk{
         display: none;
@@ -1062,4 +1147,8 @@ footer{
     .button_left, .button_right{
         display: none;
     }
+    .left_button button{
+        padding: 0;
+    }
+    
 }
